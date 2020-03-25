@@ -33,6 +33,7 @@ public class Ex05Finally {
 			//예외가 발생되더라도 finally구문은 실행된다.
 			System.out.println("나이는 숫자만 쓰세요");
 		}
+		
 		finally {
 			System.out.println("항상 실행되는 finally절 입니다.");
 			
@@ -42,6 +43,7 @@ public class Ex05Finally {
 			 */
 			System.exit(0);
 		}
+		
 	}
 
 	public static void main(String[] args) {
@@ -49,12 +51,14 @@ public class Ex05Finally {
 		try {
 			runtime();
 		}
+		
 		catch(NumberFormatException e) {
 			e.printStackTrace();
 		}
 		
 		tryCatchFinally();
 		System.out.println("메인메소드 끝");
+		
 	}
 
 }

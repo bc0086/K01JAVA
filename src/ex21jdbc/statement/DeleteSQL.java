@@ -46,7 +46,7 @@ public class DeleteSQL {
 			 test1 삭제시 제약조건위배 예외발생
 			 test99와 같이 db에 입력되지 않은 레코드 삭제시에는 예외없이 삭제되지 않음.
 			 */
-			String query = "DELETE FROM member WHERE id= 'test2'";
+			String query = " DELETE FROM member WHERE id= 'test2' ";
 			int affected = stmt.executeUpdate(query);
 			
 			System.out.println(affected + "행이 삭제됨");

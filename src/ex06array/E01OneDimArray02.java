@@ -11,7 +11,7 @@ public class E01OneDimArray02 {
 		System.out.println("생성된난수[실수]: "+ rndNumber);
 		int intNumber = (int)(Math.random()*100);
 		System.out.println("생성된난수[정수]: "+ intNumber);
-		
+		 
 		//난수생성방법2
 		Random random = new Random();
 		System.out.println("생성된난수:" + random.nextInt());
