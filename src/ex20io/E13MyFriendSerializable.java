@@ -156,6 +156,12 @@ public class E13MyFriendSerializable {
 
 }//end of class
 
+
+/*
+프로그램의 흐름을 제어하는 목적으로 생성하는 클래스로
+주로 컨트롤클래스 혹은 핸들러클래스라고 한다.
+해당 프로그램에서 기능을 담당하게 된다.
+ */
 class FriendInfoHandler {
 	//멤버변수
 	/*
@@ -226,7 +232,7 @@ class FriendInfoHandler {
 			myFriends[i].showBasicInfo();
 		}
 		System.out.println("===간략정보가 출력되었습니다===");
-	}//end of showAllData
+	}//end of showSimpleData
 	
 	//주소록 검색
 	public void searchInfo() {
@@ -238,13 +244,14 @@ class FriendInfoHandler {
 			
 			System.out.println("검색중인이름:"+myFriends[i].name);
 			
+			//검색할 이름과 객체의 이름이 일치하는 경우 모든정보를 출력함
 			if(searchName.compareTo(myFriends[i].name)==0) {
 				myFriends[i].showAllData();
 				
 				System.out.println("**귀하가 요청하는 정보를 찾았습니다.**");
 			}
 		}
-	}
+	}////end of searchInfo
 	
 	//주소록 항목 삭제
 	public void deleteInfo() {
@@ -301,5 +308,6 @@ class FriendInfoHandler {
 			System.out.println("에외발생");
 			e.printStackTrace();
 		}
+	}
 }//end of FriendInfoHandler
 

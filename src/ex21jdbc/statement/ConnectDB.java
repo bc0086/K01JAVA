@@ -11,7 +11,7 @@ public abstract class ConnectDB {
 	
 	/*
 	 멤버변수 : 상속받은 하위클래스에서의 접근을 허용하기 위해 접근지정자는
-	 	protected로 선언함.
+	 	protected로 선언함
 	 */
 	protected Connection con;
 	protected Statement stmt;

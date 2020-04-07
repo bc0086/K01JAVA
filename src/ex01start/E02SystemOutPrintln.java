@@ -3,7 +3,6 @@ package ex01start;
 public class E02SystemOutPrintln {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int num1 = 100;
 		
 		/*
@@ -15,7 +14,7 @@ public class E02SystemOutPrintln {
 		System.out.printf()
 			: 출력내용을 서식에 맞춰 출력할 때 사용하며 자페적인 줄바꿈
 			기능은 없다. 줄바꿈처리를 위해 \n 혹은 %n 두가지를 
-			사용할 수 있다.
+			사용할 수 있다....
 		 */
 		
 		System.out.println("num1="+ num1);
