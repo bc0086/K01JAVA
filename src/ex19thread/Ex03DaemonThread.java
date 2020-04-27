@@ -29,7 +29,7 @@ class YesThread extends Thread
 {
 	public YesThread() {}
 	/*
-	 Thread클래스의 생성자를 호출할 때 전달하는 매개변수를 통해 해당 쓰레드긔 이름을 지정할 수 있다.
+	 Thread클래스의 생성자를 호출할 때 전달하는 매개변수를 통해 해당 쓰레드의 이름을 지정할 수 있다.
 	 지정된 이름은 getName()메소드를 통해 반환할 수 있다.
 	 */
 	public YesThread(String threadName) {
