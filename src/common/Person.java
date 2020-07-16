@@ -7,7 +7,7 @@ public class Person {
 	public Person(String name, int age) {
 		super();
 		this.name = name;
-		this.age = age;
+		this.age = age;    
 	}
 	
 	public String getName() {
