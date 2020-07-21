@@ -8,7 +8,7 @@ public class Person {
 		super();
 		this.name = name;    
 		this.age = age;    
-	}
+	}                                
 	
 	public String getName() {
 		return name;
