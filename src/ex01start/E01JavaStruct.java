@@ -14,7 +14,7 @@ public class E01JavaStruct {
 		System.out.println("오늘날자:" + toDayOfDate);   
 		      
 		/*
-		SimpleDateFormat 클래스를 이용하여 우리가 흔히 사용하는 포맷인
+		SimpleDateFormat 클래스를 이용하여 우리가 흔히 사용하는 포맷인    
 		년-월-일 시:분:초 형태로 변환하여 출력함.
 		 */
 		SimpleDateFormat simple =
