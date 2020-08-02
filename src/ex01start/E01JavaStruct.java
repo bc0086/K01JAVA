@@ -7,7 +7,7 @@ public class E01JavaStruct {
 
 	public static void main(String[] args) {          
 		
-		System.out.println("자바의 간략한 구조");
+		System.out.println("자바의 간략한 구조");   
 		
 		Date toDayOfDate = new Date();
 		//Date클래스로 오늘날자 출력하기
