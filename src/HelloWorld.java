@@ -14,7 +14,7 @@ public class HelloWorld {
 	 JAVA프로그램에서의 출발점은 MAIN메소드(함수)부터 시작된다.
 	 자바런처를 통해 실행하게되면 자동으로 호출되어 동작하게 된다.
 	 */
-	public static void main(String[] args) {
+	public static void main(String[] args) { 
 		
 		System.out.println("Hello World");
 		System.out.println("처음 사용해보는 이클립스..!!");
