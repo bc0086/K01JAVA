@@ -46,8 +46,8 @@ public class InsertQuery extends IConnectImpl {
 			
 			/*
 			 인파라미터 설정시 사용하는 메소드
-			  	쿼리문에 ? 가 있는 부분에 인덱스로 즙건해서 설저한ㄷ.
-			  	잘형이 
+			  	쿼리문에 ? 가 있는 부분에 인덱스로 접근해서 설정한다.
+			  	자료형이 
 			  		숫자면 setInr
 					문자면 serSting
 					날짜면 setDate()를 사용한다

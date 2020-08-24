@@ -24,7 +24,7 @@ public class E04CallByReference {
 		
 		callByReference(arr);
 		
-		System.out.println("[메인메소드]-Swap이후 출력");
+		System.out.println("[메인메소드]-Swap이후 출력");     
 		for(int i=0; i<arr.length ; i++) {
 			System.out.println(arr[i]+ " ");
 		}

@@ -1,5 +1,6 @@
 package ex21jdbc.connect;
 
+import java.sql.CallableStatement;
 import java.sql.Connection;
 import java.sql.DriverManager;
 import java.sql.PreparedStatement;
@@ -13,6 +14,7 @@ public class IConnectImpl implements IConnect {
 	public Connection con;
 	public PreparedStatement psmt;
 	public ResultSet rs;
+	public CallableStatement csmt;
 	
 	public IConnectImpl() {
 		System.out.println("IConnectImpl 기본생성자 호출");

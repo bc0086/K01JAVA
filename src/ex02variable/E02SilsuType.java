@@ -8,7 +8,7 @@ public class E02SilsuType {
 		 실수자료형
 		 -정수형보다는 실수형이 더 큰 자료형이다.(0과1사이에 무수한
 		 실수가 존재하기 때문)
-		 -따라서 long과 float의 연산결과는 float형이 된다.
+		 -따라서 long과 float의 연산결과는 float형이 된다.    
 		 */
 
 		long long1 = 100;
